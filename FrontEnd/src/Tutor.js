@@ -35,17 +35,16 @@ const Tutor = () => {
   const handleSubmit = async () => {
     try {
 
-      //const response = await axios.post('http://127.0.0.1:5000/submit_code', { code: userCode, test_case: test_case, time_complexity: time_complexity, question: question});
+      const response = await axios.post('http://127.0.0.1:5000/submit_code', { code: userCode, test_case: test_case, time_complexity: time_complexity, question: question});
       // Assuming the response includes fields for correctness and a hint if needed
-      /*if (response.data.is_code_correct=="True" && response.data.is_optimal_code=="True") {
+      if (response.data.is_code_correct=="True" && response.data.is_optimal_code=="True") {
         setFeedback("Correct");
       } else if (response.data.is_code_correct=="True" && response.data.is_optimal_code=="False") {
         setFeedback(response.data.hint); // Display the hint from the backend
       }
       else if (response.data.is_code_correct=="False") {
         setFeedback("Incorrect");
-      }*/
-      setFeedback('Correct');
+      }
       setCorrectCode(''); // Clear the correct code display if previously shown
     } catch (error) {
       console.error('Error submitting code:', error);
