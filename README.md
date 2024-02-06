@@ -1,1 +1,9 @@
-# TechFest_Tutor
+The project in question is an AI-powered coding tutor designed to enhance the learning experience for programming enthusiasts and students. This web application leverages the capabilities of OpenAI's ChatGPT API to generate and source programming questions, providing an interactive platform for users to engage with coding challenges.
+
+Upon receiving a question, users are prompted to input their code solutions through the web interface. The application then utilizes Sphere Engine, an online compiler service, to verify the compilability of the submitted code. This step ensures that the user's solution is syntactically correct and executable without errors.
+
+If the code compiles successfully, the application proceeds to evaluate the solution's efficiency, specifically its time complexity. This evaluation is conducted by the ChatGPT API, which analyzes the solution against best-practice algorithms and patterns to determine its optimality. In cases where the solution is not deemed the most efficient, ChatGPT provides targeted hints and suggestions aimed at guiding the user towards optimizing their code. This iterative process encourages users to refine their solutions, fostering a deeper understanding of algorithmic efficiency and problem-solving strategies.
+
+The tutoring session is designed to be user-centric, allowing participants to request hints at any stage or opt to terminate the challenge. Should a user decide to conclude the session prematurely, ChatGPT generates the most optimal solution to the problem, offering the user valuable insights into efficient coding practices and methodologies.
+
+This project embodies a blend of AI technology and educational principles, creating a dynamic and responsive learning environment. By integrating ChatGPT's advanced natural language processing capabilities with Sphere Engine's robust compilation service, the application stands as a testament to the innovative use of technology in educational tools, aimed at nurturing skilled and thoughtful programmers.
