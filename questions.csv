@@ -1,0 +1,1260 @@
+easy,"### Problem Statement: Remove Duplicates from Sorted Array
+
+Given a sorted array `nums` of integers, remove the duplicates **in-place** such that each element appears only once and returns the new length of the array. Do not allocate extra space for another array, you must do this by modifying the input array in-place with O(1) extra memory.
+
+**Example Input and Output:**
+
+- Input: `nums = [1,1,2]`
+- Output: Length = 2, nums = [1,2,_]
+- Explanation: Your function should return length = 2, with the first two elements of `nums` being 1 and 2 respectively. The order of elements can be changed. It doesn't matter what you leave beyond the returned length.
+
+**Expected Input Format:**
+
+The only input to your function will be an array of integers, where each integer is separated by a comma.
+
+```
+function removeDuplicates(nums) {
+  // Your code here
+}
+```
+
+- **`nums`** is an array of integers (e.g., `[0,0,1,1,1,2,2,3,3,4]`).
+
+Note: The array `nums` is sorted in non-decreasing order.","{'input': '```nums = [0,1,2,3,4]```', 'output': '```Length = 5, nums = [0,1,2,3,4,_]```'}"
+easy,"### Problem Statement: Remove Duplicates from Sorted Array
+
+Given a sorted array `nums` of integers, remove the duplicates **in-place** such that each element appears only once and returns the new length of the array. Do not allocate extra space for another array, you must do this by modifying the input array in-place with O(1) extra memory.
+
+**Example Input and Output:**
+
+- Input: `nums = [1,1,2]`
+- Output: Length = 2, nums = [1,2,_]
+- Explanation: Your function should return length = 2, with the first two elements of `nums` being 1 and 2 respectively. The order of elements can be changed. It doesn't matter what you leave beyond the returned length.
+
+**Expected Input Format:**
+
+The only input to your function will be an array of integers, where each integer is separated by a comma.
+
+```
+function removeDuplicates(nums) {
+  // Your code here
+}
+```
+
+- **`nums`** is an array of integers (e.g., `[0,0,1,1,1,2,2,3,3,4]`).
+
+Note: The array `nums` is sorted in non-decreasing order.","{'input': '```nums = [1,1,2,2,3,3,4,4,5,5]```', 'output': '```Length = 5, nums = [1,2,3,4,5,_]```'}"
+easy,"### Problem Statement: Remove Duplicates from Sorted Array
+
+Given a sorted array `nums` of integers, remove the duplicates **in-place** such that each element appears only once and returns the new length of the array. Do not allocate extra space for another array, you must do this by modifying the input array in-place with O(1) extra memory.
+
+**Example Input and Output:**
+
+- Input: `nums = [1,1,2]`
+- Output: Length = 2, nums = [1,2,_]
+- Explanation: Your function should return length = 2, with the first two elements of `nums` being 1 and 2 respectively. The order of elements can be changed. It doesn't matter what you leave beyond the returned length.
+
+**Expected Input Format:**
+
+The only input to your function will be an array of integers, where each integer is separated by a comma.
+
+```
+function removeDuplicates(nums) {
+  // Your code here
+}
+```
+
+- **`nums`** is an array of integers (e.g., `[0,0,1,1,1,2,2,3,3,4]`).
+
+Note: The array `nums` is sorted in non-decreasing order.","{'input': '```nums = [1,1,1,1,1,1,1,1,1,1]```', 'output': '```Length = 1, nums = [1,_]```'}"
+easy,"### Problem Statement: Remove Duplicates from Sorted Array
+
+Given a sorted array `nums` of integers, remove the duplicates **in-place** such that each element appears only once and returns the new length of the array. Do not allocate extra space for another array, you must do this by modifying the input array in-place with O(1) extra memory.
+
+**Example Input and Output:**
+
+- Input: `nums = [1,1,2]`
+- Output: Length = 2, nums = [1,2,_]
+- Explanation: Your function should return length = 2, with the first two elements of `nums` being 1 and 2 respectively. The order of elements can be changed. It doesn't matter what you leave beyond the returned length.
+
+**Expected Input Format:**
+
+The only input to your function will be an array of integers, where each integer is separated by a comma.
+
+```
+function removeDuplicates(nums) {
+  // Your code here
+}
+```
+
+- **`nums`** is an array of integers (e.g., `[0,0,1,1,1,2,2,3,3,4]`).
+
+Note: The array `nums` is sorted in non-decreasing order.","{'input': '```nums = [1,2,2,3,3,3,4,4,4,4]```', 'output': '```Length = 4, nums = [1,2,3,4,_]```'}"
+easy,"### Problem Statement: Remove Duplicates from Sorted Array
+
+Given a sorted array `nums` of integers, remove the duplicates **in-place** such that each element appears only once and returns the new length of the array. Do not allocate extra space for another array, you must do this by modifying the input array in-place with O(1) extra memory.
+
+**Example Input and Output:**
+
+- Input: `nums = [1,1,2]`
+- Output: Length = 2, nums = [1,2,_]
+- Explanation: Your function should return length = 2, with the first two elements of `nums` being 1 and 2 respectively. The order of elements can be changed. It doesn't matter what you leave beyond the returned length.
+
+**Expected Input Format:**
+
+The only input to your function will be an array of integers, where each integer is separated by a comma.
+
+```
+function removeDuplicates(nums) {
+  // Your code here
+}
+```
+
+- **`nums`** is an array of integers (e.g., `[0,0,1,1,1,2,2,3,3,4]`).
+
+Note: The array `nums` is sorted in non-decreasing order.","{'input': '```nums = [0,0,0,1,1,2,2,2,3,3,4,5,5]```', 'output': '```Length = 6, nums = [0,1,2,3,4,5,_]```'}"
+easy,"### Problem Statement: Merge Sorted Arrays
+
+You are given two sorted arrays, `array1` and `array2`, where `array1` has a large enough size to hold the contents of both `array1` and `array2`. Initially, `array1` contains `m` elements, and the rest of the array is filled with `0`'s, which are placeholders for the elements of `array2`. The array `array2` contains `n` elements. Your task is to merge these arrays into a single array that is sorted in non-decreasing order. Modify `array1` in-place, integrating all elements of `array2`, such that the merged array is sorted.
+
+#### Expected Input Format
+
+- The first line contains an integer `m`, the number of elements in `array1` excluding the placeholders.
+- The second line contains `m` space-separated integers, elements of `array1`.
+- The third line contains an integer `n`, the number of elements in `array2`.
+- The fourth line contains `n` space-separated integers, elements of `array2`.
+
+#### Example
+
+**Input:**
+
+```
+3
+1 2 3 0 0 0
+3
+2 5 6
+```
+
+**Explanation:**
+
+- `array1 = [1, 2, 3, 0, 0, 0]`, `m = 3` (excluding the placeholders).
+- `array2 = [2, 5, 6]`, `n = 3`.
+
+**Output:**
+
+```
+[1, 2, 2, 3, 5, 6]
+```
+
+**Explanation:** After merging and sorting, all elements from both arrays are incorporated into `array1`, which becomes `[1, 2, 2, 3, 5, 6]`.","{'input': '```24 5 0 0 031 2 3```', 'output': '```[1, 2, 3, 4, 5]```'}"
+easy,"### Problem Statement: Merge Sorted Arrays
+
+You are given two sorted arrays, `array1` and `array2`, where `array1` has a large enough size to hold the contents of both `array1` and `array2`. Initially, `array1` contains `m` elements, and the rest of the array is filled with `0`'s, which are placeholders for the elements of `array2`. The array `array2` contains `n` elements. Your task is to merge these arrays into a single array that is sorted in non-decreasing order. Modify `array1` in-place, integrating all elements of `array2`, such that the merged array is sorted.
+
+#### Expected Input Format
+
+- The first line contains an integer `m`, the number of elements in `array1` excluding the placeholders.
+- The second line contains `m` space-separated integers, elements of `array1`.
+- The third line contains an integer `n`, the number of elements in `array2`.
+- The fourth line contains `n` space-separated integers, elements of `array2`.
+
+#### Example
+
+**Input:**
+
+```
+3
+1 2 3 0 0 0
+3
+2 5 6
+```
+
+**Explanation:**
+
+- `array1 = [1, 2, 3, 0, 0, 0]`, `m = 3` (excluding the placeholders).
+- `array2 = [2, 5, 6]`, `n = 3`.
+
+**Output:**
+
+```
+[1, 2, 2, 3, 5, 6]
+```
+
+**Explanation:** After merging and sorting, all elements from both arrays are incorporated into `array1`, which becomes `[1, 2, 2, 3, 5, 6]`.","{'input': '```31 3 5 0 0 032 4 6```', 'output': '```[1, 2, 3, 4, 5, 6]```'}"
+easy,"### Problem Statement: Merge Sorted Arrays
+
+You are given two sorted arrays, `array1` and `array2`, where `array1` has a large enough size to hold the contents of both `array1` and `array2`. Initially, `array1` contains `m` elements, and the rest of the array is filled with `0`'s, which are placeholders for the elements of `array2`. The array `array2` contains `n` elements. Your task is to merge these arrays into a single array that is sorted in non-decreasing order. Modify `array1` in-place, integrating all elements of `array2`, such that the merged array is sorted.
+
+#### Expected Input Format
+
+- The first line contains an integer `m`, the number of elements in `array1` excluding the placeholders.
+- The second line contains `m` space-separated integers, elements of `array1`.
+- The third line contains an integer `n`, the number of elements in `array2`.
+- The fourth line contains `n` space-separated integers, elements of `array2`.
+
+#### Example
+
+**Input:**
+
+```
+3
+1 2 3 0 0 0
+3
+2 5 6
+```
+
+**Explanation:**
+
+- `array1 = [1, 2, 3, 0, 0, 0]`, `m = 3` (excluding the placeholders).
+- `array2 = [2, 5, 6]`, `n = 3`.
+
+**Output:**
+
+```
+[1, 2, 2, 3, 5, 6]
+```
+
+**Explanation:** After merging and sorting, all elements from both arrays are incorporated into `array1`, which becomes `[1, 2, 2, 3, 5, 6]`.","{'input': '```00```', 'output': '```[]```'}"
+easy,"### Problem Statement: Merge Sorted Arrays
+
+You are given two sorted arrays, `array1` and `array2`, where `array1` has a large enough size to hold the contents of both `array1` and `array2`. Initially, `array1` contains `m` elements, and the rest of the array is filled with `0`'s, which are placeholders for the elements of `array2`. The array `array2` contains `n` elements. Your task is to merge these arrays into a single array that is sorted in non-decreasing order. Modify `array1` in-place, integrating all elements of `array2`, such that the merged array is sorted.
+
+#### Expected Input Format
+
+- The first line contains an integer `m`, the number of elements in `array1` excluding the placeholders.
+- The second line contains `m` space-separated integers, elements of `array1`.
+- The third line contains an integer `n`, the number of elements in `array2`.
+- The fourth line contains `n` space-separated integers, elements of `array2`.
+
+#### Example
+
+**Input:**
+
+```
+3
+1 2 3 0 0 0
+3
+2 5 6
+```
+
+**Explanation:**
+
+- `array1 = [1, 2, 3, 0, 0, 0]`, `m = 3` (excluding the placeholders).
+- `array2 = [2, 5, 6]`, `n = 3`.
+
+**Output:**
+
+```
+[1, 2, 2, 3, 5, 6]
+```
+
+**Explanation:** After merging and sorting, all elements from both arrays are incorporated into `array1`, which becomes `[1, 2, 2, 3, 5, 6]`.","{'input': '```410 20 30 40 0 0 0315 25 35```', 'output': '```[10, 15, 20, 25, 30, 35, 40]```'}"
+easy,"### Problem Statement: Merge Sorted Arrays
+
+You are given two sorted arrays, `array1` and `array2`, where `array1` has a large enough size to hold the contents of both `array1` and `array2`. Initially, `array1` contains `m` elements, and the rest of the array is filled with `0`'s, which are placeholders for the elements of `array2`. The array `array2` contains `n` elements. Your task is to merge these arrays into a single array that is sorted in non-decreasing order. Modify `array1` in-place, integrating all elements of `array2`, such that the merged array is sorted.
+
+#### Expected Input Format
+
+- The first line contains an integer `m`, the number of elements in `array1` excluding the placeholders.
+- The second line contains `m` space-separated integers, elements of `array1`.
+- The third line contains an integer `n`, the number of elements in `array2`.
+- The fourth line contains `n` space-separated integers, elements of `array2`.
+
+#### Example
+
+**Input:**
+
+```
+3
+1 2 3 0 0 0
+3
+2 5 6
+```
+
+**Explanation:**
+
+- `array1 = [1, 2, 3, 0, 0, 0]`, `m = 3` (excluding the placeholders).
+- `array2 = [2, 5, 6]`, `n = 3`.
+
+**Output:**
+
+```
+[1, 2, 2, 3, 5, 6]
+```
+
+**Explanation:** After merging and sorting, all elements from both arrays are incorporated into `array1`, which becomes `[1, 2, 2, 3, 5, 6]`.","{'input': '```5-5 0 5 10 15 0 0 0 0 05-10 -2 2 18 20```', 'output': '```[-10, -5, -2, 0, 2, 5, 10, 15, 18, 20]```'}"
+easy,"### Problem Statement: Find the Maximum Number in an Array
+
+Write a function that takes an array of integers as input and returns the maximum number in that array. If the array is empty, the function should return `null` or an equivalent value in your programming language.
+
+#### Expected Input Format for the Code Solution:
+- **Input:** The first line contains an integer `n`, representing the number of elements in the array. The next line contains `n` space-separated integers representing the elements of the array.
+- **Output:** The output should be a single integer, the maximum number in the array. If the array is empty, return `null` or an equivalent value.
+
+#### Example:
+- **Input:**
+  ```
+  5
+  1 3 5 7 9
+  ```
+- **Output:**
+  ```
+  9
+  ```
+
+#### Explanation:
+In the given array `[1, 3, 5, 7, 9]`, the maximum number is `9`. Therefore, the output is `9`.","{'input': '```3-2 0 4```', 'output': '```4```'}"
+easy,"### Problem Statement: Find the Maximum Number in an Array
+
+Write a function that takes an array of integers as input and returns the maximum number in that array. If the array is empty, the function should return `null` or an equivalent value in your programming language.
+
+#### Expected Input Format for the Code Solution:
+- **Input:** The first line contains an integer `n`, representing the number of elements in the array. The next line contains `n` space-separated integers representing the elements of the array.
+- **Output:** The output should be a single integer, the maximum number in the array. If the array is empty, return `null` or an equivalent value.
+
+#### Example:
+- **Input:**
+  ```
+  5
+  1 3 5 7 9
+  ```
+- **Output:**
+  ```
+  9
+  ```
+
+#### Explanation:
+In the given array `[1, 3, 5, 7, 9]`, the maximum number is `9`. Therefore, the output is `9`.","{'input': '```0```', 'output': '```null```'}"
+easy,"### Problem Statement: Find the Maximum Number in an Array
+
+Write a function that takes an array of integers as input and returns the maximum number in that array. If the array is empty, the function should return `null` or an equivalent value in your programming language.
+
+#### Expected Input Format for the Code Solution:
+- **Input:** The first line contains an integer `n`, representing the number of elements in the array. The next line contains `n` space-separated integers representing the elements of the array.
+- **Output:** The output should be a single integer, the maximum number in the array. If the array is empty, return `null` or an equivalent value.
+
+#### Example:
+- **Input:**
+  ```
+  5
+  1 3 5 7 9
+  ```
+- **Output:**
+  ```
+  9
+  ```
+
+#### Explanation:
+In the given array `[1, 3, 5, 7, 9]`, the maximum number is `9`. Therefore, the output is `9`.","{'input': '```510 20 30 40 50```', 'output': '```50```'}"
+easy,"### Problem Statement: Find the Maximum Number in an Array
+
+Write a function that takes an array of integers as input and returns the maximum number in that array. If the array is empty, the function should return `null` or an equivalent value in your programming language.
+
+#### Expected Input Format for the Code Solution:
+- **Input:** The first line contains an integer `n`, representing the number of elements in the array. The next line contains `n` space-separated integers representing the elements of the array.
+- **Output:** The output should be a single integer, the maximum number in the array. If the array is empty, return `null` or an equivalent value.
+
+#### Example:
+- **Input:**
+  ```
+  5
+  1 3 5 7 9
+  ```
+- **Output:**
+  ```
+  9
+  ```
+
+#### Explanation:
+In the given array `[1, 3, 5, 7, 9]`, the maximum number is `9`. Therefore, the output is `9`.","{'input': '```4-1 -3 -4 -2```', 'output': '```-1```'}"
+easy,"### Problem Statement: Find the Maximum Number in an Array
+
+Write a function that takes an array of integers as input and returns the maximum number in that array. If the array is empty, the function should return `null` or an equivalent value in your programming language.
+
+#### Expected Input Format for the Code Solution:
+- **Input:** The first line contains an integer `n`, representing the number of elements in the array. The next line contains `n` space-separated integers representing the elements of the array.
+- **Output:** The output should be a single integer, the maximum number in the array. If the array is empty, return `null` or an equivalent value.
+
+#### Example:
+- **Input:**
+  ```
+  5
+  1 3 5 7 9
+  ```
+- **Output:**
+  ```
+  9
+  ```
+
+#### Explanation:
+In the given array `[1, 3, 5, 7, 9]`, the maximum number is `9`. Therefore, the output is `9`.","{'input': '```61 2 3 4 5 6```', 'output': '```6```'}"
+easy,"### Problem Statement: Merge Sorted Arrays
+
+You are given two sorted arrays, `array1` and `array2`, sorted in non-decreasing order. Write a function that merges these arrays into a single array, which is also sorted in non-decreasing order. The final sorted array should not be returned by the function, but instead be stored inside the array `array1`, which has a size large enough to hold all items from `array1` and `array2`. You are also given two integers, `m` and `n`, representing the number of elements in `array1` and `array2`, respectively. Initially, the first `m` elements of `array1` are filled with numbers, and the rest are set to 0, which should be ignored. Modify the first array in-place to avoid using extra space.
+
+#### Expected Input Format
+
+- The first line of input contains the integer `m`, the number of elements used in `array1`.
+- The second line contains `m` integers, representing the elements of `array1`, separated by spaces. The rest of the array `array1` elements are set to 0 and should be ignored.
+- The third line contains the integer `n`, the number of elements in `array2`.
+- The fourth line contains `n` integers, representing the elements of `array2`, separated by spaces.
+
+**Example:**
+
+```
+Input:
+3
+1 3 5 0 0 0
+3
+2 4 6
+```
+
+In this example, `array1` has a length enough to hold all elements from `array1` and `array2`, considering the zeros that can be replaced/ignored. The function should modify `array1` to `1 2 3 4 5 6`.","{'input': '```31 3 5 0 0 032 4 6```', 'output': '```1 2 3 4 5 6```'}"
+easy,"### Problem Statement: Merge Sorted Arrays
+
+You are given two sorted arrays, `array1` and `array2`, sorted in non-decreasing order. Write a function that merges these arrays into a single array, which is also sorted in non-decreasing order. The final sorted array should not be returned by the function, but instead be stored inside the array `array1`, which has a size large enough to hold all items from `array1` and `array2`. You are also given two integers, `m` and `n`, representing the number of elements in `array1` and `array2`, respectively. Initially, the first `m` elements of `array1` are filled with numbers, and the rest are set to 0, which should be ignored. Modify the first array in-place to avoid using extra space.
+
+#### Expected Input Format
+
+- The first line of input contains the integer `m`, the number of elements used in `array1`.
+- The second line contains `m` integers, representing the elements of `array1`, separated by spaces. The rest of the array `array1` elements are set to 0 and should be ignored.
+- The third line contains the integer `n`, the number of elements in `array2`.
+- The fourth line contains `n` integers, representing the elements of `array2`, separated by spaces.
+
+**Example:**
+
+```
+Input:
+3
+1 3 5 0 0 0
+3
+2 4 6
+```
+
+In this example, `array1` has a length enough to hold all elements from `array1` and `array2`, considering the zeros that can be replaced/ignored. The function should modify `array1` to `1 2 3 4 5 6`.","{'input': '```24 5 0 0 031 2 3```', 'output': '```1 2 3 4 5```'}"
+easy,"### Problem Statement: Merge Sorted Arrays
+
+You are given two sorted arrays, `array1` and `array2`, sorted in non-decreasing order. Write a function that merges these arrays into a single array, which is also sorted in non-decreasing order. The final sorted array should not be returned by the function, but instead be stored inside the array `array1`, which has a size large enough to hold all items from `array1` and `array2`. You are also given two integers, `m` and `n`, representing the number of elements in `array1` and `array2`, respectively. Initially, the first `m` elements of `array1` are filled with numbers, and the rest are set to 0, which should be ignored. Modify the first array in-place to avoid using extra space.
+
+#### Expected Input Format
+
+- The first line of input contains the integer `m`, the number of elements used in `array1`.
+- The second line contains `m` integers, representing the elements of `array1`, separated by spaces. The rest of the array `array1` elements are set to 0 and should be ignored.
+- The third line contains the integer `n`, the number of elements in `array2`.
+- The fourth line contains `n` integers, representing the elements of `array2`, separated by spaces.
+
+**Example:**
+
+```
+Input:
+3
+1 3 5 0 0 0
+3
+2 4 6
+```
+
+In this example, `array1` has a length enough to hold all elements from `array1` and `array2`, considering the zeros that can be replaced/ignored. The function should modify `array1` to `1 2 3 4 5 6`.","{'input': '```42 4 6 8 0 0 0 041 3 5 7```', 'output': '```1 2 3 4 5 6 7 8```'}"
+easy,"### Problem Statement: Merge Sorted Arrays
+
+You are given two sorted arrays, `array1` and `array2`, sorted in non-decreasing order. Write a function that merges these arrays into a single array, which is also sorted in non-decreasing order. The final sorted array should not be returned by the function, but instead be stored inside the array `array1`, which has a size large enough to hold all items from `array1` and `array2`. You are also given two integers, `m` and `n`, representing the number of elements in `array1` and `array2`, respectively. Initially, the first `m` elements of `array1` are filled with numbers, and the rest are set to 0, which should be ignored. Modify the first array in-place to avoid using extra space.
+
+#### Expected Input Format
+
+- The first line of input contains the integer `m`, the number of elements used in `array1`.
+- The second line contains `m` integers, representing the elements of `array1`, separated by spaces. The rest of the array `array1` elements are set to 0 and should be ignored.
+- The third line contains the integer `n`, the number of elements in `array2`.
+- The fourth line contains `n` integers, representing the elements of `array2`, separated by spaces.
+
+**Example:**
+
+```
+Input:
+3
+1 3 5 0 0 0
+3
+2 4 6
+```
+
+In this example, `array1` has a length enough to hold all elements from `array1` and `array2`, considering the zeros that can be replaced/ignored. The function should modify `array1` to `1 2 3 4 5 6`.","{'input': '```310 12 14 0 0 039 11 13```', 'output': '```9 10 11 12 13 14```'}"
+easy,"### Problem Statement: Merge Sorted Arrays
+
+You are given two sorted arrays, `array1` and `array2`, sorted in non-decreasing order. Write a function that merges these arrays into a single array, which is also sorted in non-decreasing order. The final sorted array should not be returned by the function, but instead be stored inside the array `array1`, which has a size large enough to hold all items from `array1` and `array2`. You are also given two integers, `m` and `n`, representing the number of elements in `array1` and `array2`, respectively. Initially, the first `m` elements of `array1` are filled with numbers, and the rest are set to 0, which should be ignored. Modify the first array in-place to avoid using extra space.
+
+#### Expected Input Format
+
+- The first line of input contains the integer `m`, the number of elements used in `array1`.
+- The second line contains `m` integers, representing the elements of `array1`, separated by spaces. The rest of the array `array1` elements are set to 0 and should be ignored.
+- The third line contains the integer `n`, the number of elements in `array2`.
+- The fourth line contains `n` integers, representing the elements of `array2`, separated by spaces.
+
+**Example:**
+
+```
+Input:
+3
+1 3 5 0 0 0
+3
+2 4 6
+```
+
+In this example, `array1` has a length enough to hold all elements from `array1` and `array2`, considering the zeros that can be replaced/ignored. The function should modify `array1` to `1 2 3 4 5 6`.","{'input': '```00```', 'output': '``````'}"
+easy,"### Problem Statement: Find the Maximum Number in a List
+
+Write a program that takes a list of integers as input and returns the maximum number in the list. The list will have at least one integer and will not be sorted. Your task is to find the maximum value in the most efficient way possible.
+
+#### Expected Input Format
+
+- The first line of the input will contain a single integer N, indicating the number of elements in the list.
+- The second line will contain N space-separated integers representing the elements of the list.
+
+#### Example:
+
+**Input:**
+
+```
+5
+1 3 5 2 4
+```
+
+**Output:**
+
+```
+5
+```
+
+In this example, your program should read the first input line (5) to understand that there will be 5 elements in the list. The second input line gives the actual elements of the list. Your program should then compute and output the maximum value in the list, which is 5 in this case.","{'input': '```429 1 57 34```', 'output': '```57```'}"
+easy,"### Problem Statement: Find the Maximum Number in a List
+
+Write a program that takes a list of integers as input and returns the maximum number in the list. The list will have at least one integer and will not be sorted. Your task is to find the maximum value in the most efficient way possible.
+
+#### Expected Input Format
+
+- The first line of the input will contain a single integer N, indicating the number of elements in the list.
+- The second line will contain N space-separated integers representing the elements of the list.
+
+#### Example:
+
+**Input:**
+
+```
+5
+1 3 5 2 4
+```
+
+**Output:**
+
+```
+5
+```
+
+In this example, your program should read the first input line (5) to understand that there will be 5 elements in the list. The second input line gives the actual elements of the list. Your program should then compute and output the maximum value in the list, which is 5 in this case.","{'input': '```3-1 -3 -2```', 'output': '```-1```'}"
+easy,"### Problem Statement: Find the Maximum Number in a List
+
+Write a program that takes a list of integers as input and returns the maximum number in the list. The list will have at least one integer and will not be sorted. Your task is to find the maximum value in the most efficient way possible.
+
+#### Expected Input Format
+
+- The first line of the input will contain a single integer N, indicating the number of elements in the list.
+- The second line will contain N space-separated integers representing the elements of the list.
+
+#### Example:
+
+**Input:**
+
+```
+5
+1 3 5 2 4
+```
+
+**Output:**
+
+```
+5
+```
+
+In this example, your program should read the first input line (5) to understand that there will be 5 elements in the list. The second input line gives the actual elements of the list. Your program should then compute and output the maximum value in the list, which is 5 in this case.","{'input': '```6100 200 300 400 500 600```', 'output': '```600```'}"
+easy,"### Problem Statement: Find the Maximum Number in a List
+
+Write a program that takes a list of integers as input and returns the maximum number in the list. The list will have at least one integer and will not be sorted. Your task is to find the maximum value in the most efficient way possible.
+
+#### Expected Input Format
+
+- The first line of the input will contain a single integer N, indicating the number of elements in the list.
+- The second line will contain N space-separated integers representing the elements of the list.
+
+#### Example:
+
+**Input:**
+
+```
+5
+1 3 5 2 4
+```
+
+**Output:**
+
+```
+5
+```
+
+In this example, your program should read the first input line (5) to understand that there will be 5 elements in the list. The second input line gives the actual elements of the list. Your program should then compute and output the maximum value in the list, which is 5 in this case.","{'input': '```55 5 5 5 5```', 'output': '```5```'}"
+easy,"### Problem Statement: Find the Maximum Number in a List
+
+Write a program that takes a list of integers as input and returns the maximum number in the list. The list will have at least one integer and will not be sorted. Your task is to find the maximum value in the most efficient way possible.
+
+#### Expected Input Format
+
+- The first line of the input will contain a single integer N, indicating the number of elements in the list.
+- The second line will contain N space-separated integers representing the elements of the list.
+
+#### Example:
+
+**Input:**
+
+```
+5
+1 3 5 2 4
+```
+
+**Output:**
+
+```
+5
+```
+
+In this example, your program should read the first input line (5) to understand that there will be 5 elements in the list. The second input line gives the actual elements of the list. Your program should then compute and output the maximum value in the list, which is 5 in this case.","{'input': '```142```', 'output': '```42```'}"
+easy,"### Problem Statement: Check for Palindrome
+
+Given a string, write a function to check if it is a palindrome. A palindrome is a word, phrase, number, or other sequences of characters which reads the same backward as forward, ignoring spaces, punctuation, and case sensitivity.
+
+For example, ""A man, a plan, a canal, Panama!"" is a palindrome, but ""This is not a palindrome"" is not.
+
+### Expected Input Format for the Code Solution
+
+- The input will be a single string `s`.
+- The string `s` will contain alphanumeric characters and could include spaces and punctuation; the length of `s` will be at most 1000 characters.
+
+**Example:**
+
+```plaintext
+Input: s = ""Madam, I'm Adam""
+Output: True
+```
+
+```plaintext
+Input: s = ""Hello, world!""
+Output: False
+```
+
+Your function should return `True` if the string is a palindrome and `False` otherwise.","{'input': 'Input: s = ""No lemon, no melon""', 'output': 'True'}"
+easy,"### Problem Statement: Check for Palindrome
+
+Given a string, write a function to check if it is a palindrome. A palindrome is a word, phrase, number, or other sequences of characters which reads the same backward as forward, ignoring spaces, punctuation, and case sensitivity.
+
+For example, ""A man, a plan, a canal, Panama!"" is a palindrome, but ""This is not a palindrome"" is not.
+
+### Expected Input Format for the Code Solution
+
+- The input will be a single string `s`.
+- The string `s` will contain alphanumeric characters and could include spaces and punctuation; the length of `s` will be at most 1000 characters.
+
+**Example:**
+
+```plaintext
+Input: s = ""Madam, I'm Adam""
+Output: True
+```
+
+```plaintext
+Input: s = ""Hello, world!""
+Output: False
+```
+
+Your function should return `True` if the string is a palindrome and `False` otherwise.","{'input': 'Input: s = ""Just some random text""', 'output': 'False'}"
+easy,"### Problem Statement: Check for Palindrome
+
+Given a string, write a function to check if it is a palindrome. A palindrome is a word, phrase, number, or other sequences of characters which reads the same backward as forward, ignoring spaces, punctuation, and case sensitivity.
+
+For example, ""A man, a plan, a canal, Panama!"" is a palindrome, but ""This is not a palindrome"" is not.
+
+### Expected Input Format for the Code Solution
+
+- The input will be a single string `s`.
+- The string `s` will contain alphanumeric characters and could include spaces and punctuation; the length of `s` will be at most 1000 characters.
+
+**Example:**
+
+```plaintext
+Input: s = ""Madam, I'm Adam""
+Output: True
+```
+
+```plaintext
+Input: s = ""Hello, world!""
+Output: False
+```
+
+Your function should return `True` if the string is a palindrome and `False` otherwise.","{'input': 'Input: s = ""Was it a car or a cat I saw?""', 'output': 'True'}"
+easy,"### Problem Statement: Check for Palindrome
+
+Given a string, write a function to check if it is a palindrome. A palindrome is a word, phrase, number, or other sequences of characters which reads the same backward as forward, ignoring spaces, punctuation, and case sensitivity.
+
+For example, ""A man, a plan, a canal, Panama!"" is a palindrome, but ""This is not a palindrome"" is not.
+
+### Expected Input Format for the Code Solution
+
+- The input will be a single string `s`.
+- The string `s` will contain alphanumeric characters and could include spaces and punctuation; the length of `s` will be at most 1000 characters.
+
+**Example:**
+
+```plaintext
+Input: s = ""Madam, I'm Adam""
+Output: True
+```
+
+```plaintext
+Input: s = ""Hello, world!""
+Output: False
+```
+
+Your function should return `True` if the string is a palindrome and `False` otherwise.","{'input': 'Input: s = ""12321""', 'output': 'True'}"
+easy,"### Problem Statement: Check for Palindrome
+
+Given a string, write a function to check if it is a palindrome. A palindrome is a word, phrase, number, or other sequences of characters which reads the same backward as forward, ignoring spaces, punctuation, and case sensitivity.
+
+For example, ""A man, a plan, a canal, Panama!"" is a palindrome, but ""This is not a palindrome"" is not.
+
+### Expected Input Format for the Code Solution
+
+- The input will be a single string `s`.
+- The string `s` will contain alphanumeric characters and could include spaces and punctuation; the length of `s` will be at most 1000 characters.
+
+**Example:**
+
+```plaintext
+Input: s = ""Madam, I'm Adam""
+Output: True
+```
+
+```plaintext
+Input: s = ""Hello, world!""
+Output: False
+```
+
+Your function should return `True` if the string is a palindrome and `False` otherwise.","{'input': 'Input: s = ""Palindrome? No, it is not.""', 'output': 'False'}"
+easy,"### Problem Statement: Remove Duplicates from Sorted Array
+
+Given a sorted array of integers, remove the duplicates **in-place** such that each element appears only once and returns the new length of the array. Do not allocate extra space for another array; you must do this by modifying the input array in-place with O(1) extra memory.
+
+Your function should return the new length, and the first part of the array up to this new length should contain the unique elements, in their initial order. The contents beyond the new length are irrelevant.
+
+Example:
+
+Input: nums = [1,1,2]
+
+Output: 2, nums = [1,2,_]
+
+Explanation: Your function should return length = 2, with the first two elements of nums being 1 and 2 respectively. It doesn't matter what you leave beyond the returned length.
+
+### Expected Input Format for the Code Solution:
+- **nums** (`List[int]`): A list of integers sorted in non-decreasing order. 0 <= len(nums) <= 3 * 10^4. Each integer in the array nums is in the range [-104, 104].
+
+```python
+def removeDuplicates(nums: List[int]) -> int:
+```","{'input': '```nums = [1, 1, 2, 2, 3, 4, 4, 5]```', 'output': '```5```'}"
+easy,"### Problem Statement: Remove Duplicates from Sorted Array
+
+Given a sorted array of integers, remove the duplicates **in-place** such that each element appears only once and returns the new length of the array. Do not allocate extra space for another array; you must do this by modifying the input array in-place with O(1) extra memory.
+
+Your function should return the new length, and the first part of the array up to this new length should contain the unique elements, in their initial order. The contents beyond the new length are irrelevant.
+
+Example:
+
+Input: nums = [1,1,2]
+
+Output: 2, nums = [1,2,_]
+
+Explanation: Your function should return length = 2, with the first two elements of nums being 1 and 2 respectively. It doesn't matter what you leave beyond the returned length.
+
+### Expected Input Format for the Code Solution:
+- **nums** (`List[int]`): A list of integers sorted in non-decreasing order. 0 <= len(nums) <= 3 * 10^4. Each integer in the array nums is in the range [-104, 104].
+
+```python
+def removeDuplicates(nums: List[int]) -> int:
+```","{'input': '```nums = [0, 0, 1, 1, 1, 2, 2, 3, 3, 4]```', 'output': '```5```'}"
+easy,"### Problem Statement: Remove Duplicates from Sorted Array
+
+Given a sorted array of integers, remove the duplicates **in-place** such that each element appears only once and returns the new length of the array. Do not allocate extra space for another array; you must do this by modifying the input array in-place with O(1) extra memory.
+
+Your function should return the new length, and the first part of the array up to this new length should contain the unique elements, in their initial order. The contents beyond the new length are irrelevant.
+
+Example:
+
+Input: nums = [1,1,2]
+
+Output: 2, nums = [1,2,_]
+
+Explanation: Your function should return length = 2, with the first two elements of nums being 1 and 2 respectively. It doesn't matter what you leave beyond the returned length.
+
+### Expected Input Format for the Code Solution:
+- **nums** (`List[int]`): A list of integers sorted in non-decreasing order. 0 <= len(nums) <= 3 * 10^4. Each integer in the array nums is in the range [-104, 104].
+
+```python
+def removeDuplicates(nums: List[int]) -> int:
+```","{'input': '```nums = [-2, -1, -1, 0, 1]```', 'output': '```4```'}"
+easy,"### Problem Statement: Remove Duplicates from Sorted Array
+
+Given a sorted array of integers, remove the duplicates **in-place** such that each element appears only once and returns the new length of the array. Do not allocate extra space for another array; you must do this by modifying the input array in-place with O(1) extra memory.
+
+Your function should return the new length, and the first part of the array up to this new length should contain the unique elements, in their initial order. The contents beyond the new length are irrelevant.
+
+Example:
+
+Input: nums = [1,1,2]
+
+Output: 2, nums = [1,2,_]
+
+Explanation: Your function should return length = 2, with the first two elements of nums being 1 and 2 respectively. It doesn't matter what you leave beyond the returned length.
+
+### Expected Input Format for the Code Solution:
+- **nums** (`List[int]`): A list of integers sorted in non-decreasing order. 0 <= len(nums) <= 3 * 10^4. Each integer in the array nums is in the range [-104, 104].
+
+```python
+def removeDuplicates(nums: List[int]) -> int:
+```","{'input': '```nums = []```', 'output': '```0```'}"
+easy,"### Problem Statement: Remove Duplicates from Sorted Array
+
+Given a sorted array of integers, remove the duplicates **in-place** such that each element appears only once and returns the new length of the array. Do not allocate extra space for another array; you must do this by modifying the input array in-place with O(1) extra memory.
+
+Your function should return the new length, and the first part of the array up to this new length should contain the unique elements, in their initial order. The contents beyond the new length are irrelevant.
+
+Example:
+
+Input: nums = [1,1,2]
+
+Output: 2, nums = [1,2,_]
+
+Explanation: Your function should return length = 2, with the first two elements of nums being 1 and 2 respectively. It doesn't matter what you leave beyond the returned length.
+
+### Expected Input Format for the Code Solution:
+- **nums** (`List[int]`): A list of integers sorted in non-decreasing order. 0 <= len(nums) <= 3 * 10^4. Each integer in the array nums is in the range [-104, 104].
+
+```python
+def removeDuplicates(nums: List[int]) -> int:
+```","{'input': '```nums = [-104, -104, -103, -102, -101, -100, -100, 0, 104]```', 'output': '```7```'}"
+easy,"### Problem Statement: Find the Maximum in a List
+
+Given a list of **N** integers, write a program that finds the maximum number in the list. The list contains at least one number and does not exceed 10,000 elements. The numbers in the list can be both positive and negative.
+
+#### Expected Input Format for the Code Solution
+
+- The first line of the input contains an integer **N**, the size of the list.
+- The second line contains **N** space-separated integers, the elements of the list.
+
+#### Example
+
+**Input:**
+
+```
+5
+3 1 4 1 5
+```
+
+**Output:**
+
+```
+5
+```
+
+Your program should read the input from the standard input and print the result to the standard output.","{'input': '```4-1 -2 -3 -4```', 'output': '```-1```'}"
+easy,"### Problem Statement: Find the Maximum in a List
+
+Given a list of **N** integers, write a program that finds the maximum number in the list. The list contains at least one number and does not exceed 10,000 elements. The numbers in the list can be both positive and negative.
+
+#### Expected Input Format for the Code Solution
+
+- The first line of the input contains an integer **N**, the size of the list.
+- The second line contains **N** space-separated integers, the elements of the list.
+
+#### Example
+
+**Input:**
+
+```
+5
+3 1 4 1 5
+```
+
+**Output:**
+
+```
+5
+```
+
+Your program should read the input from the standard input and print the result to the standard output.","{'input': '```3100 200 300```', 'output': '```300```'}"
+easy,"### Problem Statement: Find the Maximum in a List
+
+Given a list of **N** integers, write a program that finds the maximum number in the list. The list contains at least one number and does not exceed 10,000 elements. The numbers in the list can be both positive and negative.
+
+#### Expected Input Format for the Code Solution
+
+- The first line of the input contains an integer **N**, the size of the list.
+- The second line contains **N** space-separated integers, the elements of the list.
+
+#### Example
+
+**Input:**
+
+```
+5
+3 1 4 1 5
+```
+
+**Output:**
+
+```
+5
+```
+
+Your program should read the input from the standard input and print the result to the standard output.","{'input': '```10```', 'output': '```0```'}"
+easy,"### Problem Statement: Find the Maximum in a List
+
+Given a list of **N** integers, write a program that finds the maximum number in the list. The list contains at least one number and does not exceed 10,000 elements. The numbers in the list can be both positive and negative.
+
+#### Expected Input Format for the Code Solution
+
+- The first line of the input contains an integer **N**, the size of the list.
+- The second line contains **N** space-separated integers, the elements of the list.
+
+#### Example
+
+**Input:**
+
+```
+5
+3 1 4 1 5
+```
+
+**Output:**
+
+```
+5
+```
+
+Your program should read the input from the standard input and print the result to the standard output.","{'input': '```6-10 5 6 1 -4 8```', 'output': '```8```'}"
+easy,"### Problem Statement: Find the Maximum in a List
+
+Given a list of **N** integers, write a program that finds the maximum number in the list. The list contains at least one number and does not exceed 10,000 elements. The numbers in the list can be both positive and negative.
+
+#### Expected Input Format for the Code Solution
+
+- The first line of the input contains an integer **N**, the size of the list.
+- The second line contains **N** space-separated integers, the elements of the list.
+
+#### Example
+
+**Input:**
+
+```
+5
+3 1 4 1 5
+```
+
+**Output:**
+
+```
+5
+```
+
+Your program should read the input from the standard input and print the result to the standard output.","{'input': '```834 67 89 23 12 -56 -1 4```', 'output': '```89```'}"
+easy,"### Problem Statement: **Merge Sorted Arrays**
+
+Given two integer arrays `arr1` and `arr2`, each sorted in non-decreasing order, merge them into one single sorted array.
+
+The result should be returned as a new array. You should not use any built-in sort function or method directly on the final array. You are expected to merge the given arrays in a way that maintains the sorted order.
+
+**Note:** The lengths of both arrays can be different. It is possible that one of the arrays is empty.
+
+#### Expected Input Format for Code Solution:
+
+- The first line contains an integer `n1`, which represents the size of the first array `arr1`.
+- The second line contains `n1` space-separated integers, elements of the array `arr1`.
+- The third line contains an integer `n2`, which represents the size of the second array `arr2`.
+- The fourth line contains `n2` space-separated integers, elements of the array `arr2`.
+
+#### Example:
+
+**Input:**
+```
+3
+1 3 5
+4
+2 4 6 8
+```
+
+**Output:**
+```
+1 2 3 4 5 6 8
+```
+
+**Explanation:**
+
+When we merge `arr1 = [1, 3, 5]` and `arr2 = [2, 4, 6, 8]` in a sorted manner, we get `[1, 2, 3, 4, 5, 6, 8]`. Hence, the expected output is `1 2 3 4 5 6 8`.","{'input': '```31 2 334 5 6```', 'output': '```1 2 3 4 5 6```'}"
+easy,"### Problem Statement: **Merge Sorted Arrays**
+
+Given two integer arrays `arr1` and `arr2`, each sorted in non-decreasing order, merge them into one single sorted array.
+
+The result should be returned as a new array. You should not use any built-in sort function or method directly on the final array. You are expected to merge the given arrays in a way that maintains the sorted order.
+
+**Note:** The lengths of both arrays can be different. It is possible that one of the arrays is empty.
+
+#### Expected Input Format for Code Solution:
+
+- The first line contains an integer `n1`, which represents the size of the first array `arr1`.
+- The second line contains `n1` space-separated integers, elements of the array `arr1`.
+- The third line contains an integer `n2`, which represents the size of the second array `arr2`.
+- The fourth line contains `n2` space-separated integers, elements of the array `arr2`.
+
+#### Example:
+
+**Input:**
+```
+3
+1 3 5
+4
+2 4 6 8
+```
+
+**Output:**
+```
+1 2 3 4 5 6 8
+```
+
+**Explanation:**
+
+When we merge `arr1 = [1, 3, 5]` and `arr2 = [2, 4, 6, 8]` in a sorted manner, we get `[1, 2, 3, 4, 5, 6, 8]`. Hence, the expected output is `1 2 3 4 5 6 8`.","{'input': '```2-5 -33-2 0 2```', 'output': '```-5 -3 -2 0 2```'}"
+easy,"### Problem Statement: **Merge Sorted Arrays**
+
+Given two integer arrays `arr1` and `arr2`, each sorted in non-decreasing order, merge them into one single sorted array.
+
+The result should be returned as a new array. You should not use any built-in sort function or method directly on the final array. You are expected to merge the given arrays in a way that maintains the sorted order.
+
+**Note:** The lengths of both arrays can be different. It is possible that one of the arrays is empty.
+
+#### Expected Input Format for Code Solution:
+
+- The first line contains an integer `n1`, which represents the size of the first array `arr1`.
+- The second line contains `n1` space-separated integers, elements of the array `arr1`.
+- The third line contains an integer `n2`, which represents the size of the second array `arr2`.
+- The fourth line contains `n2` space-separated integers, elements of the array `arr2`.
+
+#### Example:
+
+**Input:**
+```
+3
+1 3 5
+4
+2 4 6 8
+```
+
+**Output:**
+```
+1 2 3 4 5 6 8
+```
+
+**Explanation:**
+
+When we merge `arr1 = [1, 3, 5]` and `arr2 = [2, 4, 6, 8]` in a sorted manner, we get `[1, 2, 3, 4, 5, 6, 8]`. Hence, the expected output is `1 2 3 4 5 6 8`.","{'input': '```51 3 7 9 110```', 'output': '```1 3 7 9 11```'}"
+easy,"### Problem Statement: **Merge Sorted Arrays**
+
+Given two integer arrays `arr1` and `arr2`, each sorted in non-decreasing order, merge them into one single sorted array.
+
+The result should be returned as a new array. You should not use any built-in sort function or method directly on the final array. You are expected to merge the given arrays in a way that maintains the sorted order.
+
+**Note:** The lengths of both arrays can be different. It is possible that one of the arrays is empty.
+
+#### Expected Input Format for Code Solution:
+
+- The first line contains an integer `n1`, which represents the size of the first array `arr1`.
+- The second line contains `n1` space-separated integers, elements of the array `arr1`.
+- The third line contains an integer `n2`, which represents the size of the second array `arr2`.
+- The fourth line contains `n2` space-separated integers, elements of the array `arr2`.
+
+#### Example:
+
+**Input:**
+```
+3
+1 3 5
+4
+2 4 6 8
+```
+
+**Output:**
+```
+1 2 3 4 5 6 8
+```
+
+**Explanation:**
+
+When we merge `arr1 = [1, 3, 5]` and `arr2 = [2, 4, 6, 8]` in a sorted manner, we get `[1, 2, 3, 4, 5, 6, 8]`. Hence, the expected output is `1 2 3 4 5 6 8`.","{'input': '```045 6 7 8```', 'output': '```5 6 7 8```'}"
+easy,"### Problem Statement: **Merge Sorted Arrays**
+
+Given two integer arrays `arr1` and `arr2`, each sorted in non-decreasing order, merge them into one single sorted array.
+
+The result should be returned as a new array. You should not use any built-in sort function or method directly on the final array. You are expected to merge the given arrays in a way that maintains the sorted order.
+
+**Note:** The lengths of both arrays can be different. It is possible that one of the arrays is empty.
+
+#### Expected Input Format for Code Solution:
+
+- The first line contains an integer `n1`, which represents the size of the first array `arr1`.
+- The second line contains `n1` space-separated integers, elements of the array `arr1`.
+- The third line contains an integer `n2`, which represents the size of the second array `arr2`.
+- The fourth line contains `n2` space-separated integers, elements of the array `arr2`.
+
+#### Example:
+
+**Input:**
+```
+3
+1 3 5
+4
+2 4 6 8
+```
+
+**Output:**
+```
+1 2 3 4 5 6 8
+```
+
+**Explanation:**
+
+When we merge `arr1 = [1, 3, 5]` and `arr2 = [2, 4, 6, 8]` in a sorted manner, we get `[1, 2, 3, 4, 5, 6, 8]`. Hence, the expected output is `1 2 3 4 5 6 8`.","{'input': '```4100 200 300 4003150 250 350```', 'output': '```100 150 200 250 300 350 400```'}"
+easy,"### Problem Statement: Merge Sorted Arrays
+
+You are given two sorted arrays, `arr1` and `arr2`, where `arr1` has a sufficient size at the end to hold `arr2`. The number of elements initially in `arr1` and `arr2` are `m` and `n`, respectively. Merge `arr2` into `arr1` so that `arr1` becomes a single sorted array. You should achieve this without using any extra space (i.e., do not allocate another array), and the final sorted array should be stored in `arr1`.
+ 
+**Note**: You may assume that `arr1` has enough space to hold additional elements from `arr2`, and the lengths `m` and `n` refer to the number of elements initially in `arr1` and `arr2`, respectively.
+
+### Expected Input Format
+
+- The first line contains an integer, `m`, the number of elements initially in `arr1`.
+- The second line contains `m` integers separated by spaces, representing the elements of `arr1`.
+- The third line contains an integer, `n`, the number of elements in `arr2`.
+- The fourth line contains `n` integers separated by spaces, representing the elements of `arr2`.
+
+#### Example Input:
+
+```plaintext
+3
+1 2 3
+3
+2 5 6
+```
+
+#### Explanation:
+
+In this example, the first array `arr1` initially contains 3 elements `[1, 2, 3]`. After merging `arr2` `[2, 5, 6]` into `arr1`, `arr1` becomes `[1, 2, 2, 3, 5, 6]`. This is the sorted array that should be the result of your code solution.","{'input': '```plaintext24 526 7```', 'output': '```plaintext4 5 6 7```'}"
+easy,"### Problem Statement: Merge Sorted Arrays
+
+You are given two sorted arrays, `arr1` and `arr2`, where `arr1` has a sufficient size at the end to hold `arr2`. The number of elements initially in `arr1` and `arr2` are `m` and `n`, respectively. Merge `arr2` into `arr1` so that `arr1` becomes a single sorted array. You should achieve this without using any extra space (i.e., do not allocate another array), and the final sorted array should be stored in `arr1`.
+ 
+**Note**: You may assume that `arr1` has enough space to hold additional elements from `arr2`, and the lengths `m` and `n` refer to the number of elements initially in `arr1` and `arr2`, respectively.
+
+### Expected Input Format
+
+- The first line contains an integer, `m`, the number of elements initially in `arr1`.
+- The second line contains `m` integers separated by spaces, representing the elements of `arr1`.
+- The third line contains an integer, `n`, the number of elements in `arr2`.
+- The fourth line contains `n` integers separated by spaces, representing the elements of `arr2`.
+
+#### Example Input:
+
+```plaintext
+3
+1 2 3
+3
+2 5 6
+```
+
+#### Explanation:
+
+In this example, the first array `arr1` initially contains 3 elements `[1, 2, 3]`. After merging `arr2` `[2, 5, 6]` into `arr1`, `arr1` becomes `[1, 2, 2, 3, 5, 6]`. This is the sorted array that should be the result of your code solution.","{'input': '```plaintext31 3 532 4 6```', 'output': '```plaintext1 2 3 4 5 6```'}"
+easy,"### Problem Statement: Merge Sorted Arrays
+
+You are given two sorted arrays, `arr1` and `arr2`, where `arr1` has a sufficient size at the end to hold `arr2`. The number of elements initially in `arr1` and `arr2` are `m` and `n`, respectively. Merge `arr2` into `arr1` so that `arr1` becomes a single sorted array. You should achieve this without using any extra space (i.e., do not allocate another array), and the final sorted array should be stored in `arr1`.
+ 
+**Note**: You may assume that `arr1` has enough space to hold additional elements from `arr2`, and the lengths `m` and `n` refer to the number of elements initially in `arr1` and `arr2`, respectively.
+
+### Expected Input Format
+
+- The first line contains an integer, `m`, the number of elements initially in `arr1`.
+- The second line contains `m` integers separated by spaces, representing the elements of `arr1`.
+- The third line contains an integer, `n`, the number of elements in `arr2`.
+- The fourth line contains `n` integers separated by spaces, representing the elements of `arr2`.
+
+#### Example Input:
+
+```plaintext
+3
+1 2 3
+3
+2 5 6
+```
+
+#### Explanation:
+
+In this example, the first array `arr1` initially contains 3 elements `[1, 2, 3]`. After merging `arr2` `[2, 5, 6]` into `arr1`, `arr1` becomes `[1, 2, 2, 3, 5, 6]`. This is the sorted array that should be the result of your code solution.","{'input': '```plaintext41 2 3 40```', 'output': '```plaintext1 2 3 4```'}"
+easy,"### Problem Statement: Merge Sorted Arrays
+
+You are given two sorted arrays, `arr1` and `arr2`, where `arr1` has a sufficient size at the end to hold `arr2`. The number of elements initially in `arr1` and `arr2` are `m` and `n`, respectively. Merge `arr2` into `arr1` so that `arr1` becomes a single sorted array. You should achieve this without using any extra space (i.e., do not allocate another array), and the final sorted array should be stored in `arr1`.
+ 
+**Note**: You may assume that `arr1` has enough space to hold additional elements from `arr2`, and the lengths `m` and `n` refer to the number of elements initially in `arr1` and `arr2`, respectively.
+
+### Expected Input Format
+
+- The first line contains an integer, `m`, the number of elements initially in `arr1`.
+- The second line contains `m` integers separated by spaces, representing the elements of `arr1`.
+- The third line contains an integer, `n`, the number of elements in `arr2`.
+- The fourth line contains `n` integers separated by spaces, representing the elements of `arr2`.
+
+#### Example Input:
+
+```plaintext
+3
+1 2 3
+3
+2 5 6
+```
+
+#### Explanation:
+
+In this example, the first array `arr1` initially contains 3 elements `[1, 2, 3]`. After merging `arr2` `[2, 5, 6]` into `arr1`, `arr1` becomes `[1, 2, 2, 3, 5, 6]`. This is the sorted array that should be the result of your code solution.","{'input': '```plaintext0110```', 'output': '```plaintext10```'}"
+easy,"### Problem Statement: Merge Sorted Arrays
+
+You are given two sorted arrays, `arr1` and `arr2`, where `arr1` has a sufficient size at the end to hold `arr2`. The number of elements initially in `arr1` and `arr2` are `m` and `n`, respectively. Merge `arr2` into `arr1` so that `arr1` becomes a single sorted array. You should achieve this without using any extra space (i.e., do not allocate another array), and the final sorted array should be stored in `arr1`.
+ 
+**Note**: You may assume that `arr1` has enough space to hold additional elements from `arr2`, and the lengths `m` and `n` refer to the number of elements initially in `arr1` and `arr2`, respectively.
+
+### Expected Input Format
+
+- The first line contains an integer, `m`, the number of elements initially in `arr1`.
+- The second line contains `m` integers separated by spaces, representing the elements of `arr1`.
+- The third line contains an integer, `n`, the number of elements in `arr2`.
+- The fourth line contains `n` integers separated by spaces, representing the elements of `arr2`.
+
+#### Example Input:
+
+```plaintext
+3
+1 2 3
+3
+2 5 6
+```
+
+#### Explanation:
+
+In this example, the first array `arr1` initially contains 3 elements `[1, 2, 3]`. After merging `arr2` `[2, 5, 6]` into `arr1`, `arr1` becomes `[1, 2, 2, 3, 5, 6]`. This is the sorted array that should be the result of your code solution.","{'input': '```plaintext410 20 30 40415 25 35 45```', 'output': '```plaintext10 15 20 25 30 35 40 45```'}"
